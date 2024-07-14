@@ -1,3 +1,3 @@
-x=int(input())
-y=int(input())
-print("X =",x+y)
+A, B = map(int, input().split())
+X = A + B
+print(f"X = {X}")

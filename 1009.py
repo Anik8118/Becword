@@ -1,0 +1,5 @@
+e, a, b = input().split()
+a = float(a)
+b = float(b)
+c = a + (b * 0.15)
+print(f"TOTAL = R$ {c:.2f}")
